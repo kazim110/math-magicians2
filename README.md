@@ -8,7 +8,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -138,5 +137,9 @@ If you like this project give me a star.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/kazim110/math-magicians2/blob/proj-config/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
