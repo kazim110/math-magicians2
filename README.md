@@ -59,13 +59,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-#### <a href="">Live Demo Link</a>
-
-
 
 <!-- GETTING STARTED -->
 
@@ -141,4 +134,9 @@ If you like this project give me a star.
   - It's a  project of micoverse curriculum entitled Math Magicians.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
 
