@@ -2,7 +2,7 @@ import React from 'react';
 
 function CalculatorButtons() {
   return (
-    <div>
+    <div className="keypad">
       <div>
         <button type="button" className="AC left">AC</button>
         <button type="button" className="+/- left">+/-</button>
@@ -10,10 +10,10 @@ function CalculatorButtons() {
         <button type="button" className="/ right">&#247;</button>
       </div>
       <div>
-        <button type="button" className="7 left">7</button>
-        <button type="button" className="8 left">8</button>
-        <button type="button" className="9 left">9</button>
-        <button type="button" className="* right">&#215;</button>
+        <button type="button" className="seven left">7</button>
+        <button type="button" className="eight left">8</button>
+        <button type="button" className="nine left">9</button>
+        <button type="button" className="multiply right">&#215;</button>
       </div>
       <div>
         <button type="button" className="4 left">4</button>
@@ -28,7 +28,7 @@ function CalculatorButtons() {
         <button type="button" className="+ right">+</button>
       </div>
       <div>
-        <button type="button" className="0 left">0</button>
+        <button type="button" className="zero left">0</button>
         <button type="button" className=". left">.</button>
         <button type="button" className="= right">=</button>
       </div>

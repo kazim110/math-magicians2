@@ -4,7 +4,7 @@ import './css/Calculator.css';
 
 function Calculator() {
   return (
-    <div className="main">
+    <div className="calculator">
       <div className="result-box">0</div>
       <CalculatorButtons />
     </div>
