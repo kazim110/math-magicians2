@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import QuoteRender from './QuoteRender';
+import '../styles/Quote.module.css';
 
 function Quotes() {
   const [quotes, setQuotes] = useState([]);
