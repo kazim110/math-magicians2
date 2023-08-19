@@ -1,19 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../styles/Quote.module.css';
 
 function QuoteRender({ quotes }) {
   return (
     <div>
       {quotes.map((quote) => (
-        <div key={quote.id}>
-          <p>
-            {quote.category}
-            {' '}
-            quote
-          </p>
-          <h4>{quote.quote}</h4>
+        <div key={quote.id} className={styles.quoteContainer}>
+          <h4 className={styles.quote}>{quote.quote}</h4>
           <p>{quote.author}</p>
-
         </div>
       ))}
     </div>

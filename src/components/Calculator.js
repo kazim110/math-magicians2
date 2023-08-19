@@ -24,10 +24,13 @@ function Calculator() {
     }
   };
   return (
-    <div className="calculator">
-      <div className="result-box" onChange={calculate}>{calculatorState.next || calculatorState.total || '0'}</div>
-      <CalculatorButtons clickHandeler={clickHandeler} />
-    </div>
+    <>
+      <h2 className="calcTitle">Let&apos;s do some math!</h2>
+      <div className="calculator">
+        <div className="result-box" onChange={calculate}>{calculatorState.next || calculatorState.total || '0'}</div>
+        <CalculatorButtons clickHandeler={clickHandeler} />
+      </div>
+    </>
   );
 }
 

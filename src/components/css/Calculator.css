@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+.calcTitle {
+  padding: 20px;
+}
+
 .container {
   width: 60vw;
   height: 60vh;
