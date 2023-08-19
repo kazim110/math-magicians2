@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Home />} />
-            <Route path="quote" element={<Quote />} />
             <Route path="calculator" element={<Calculator />} />
+            <Route path="quote" element={<Quote />} />
           </Route>
         </Routes>
       </div>

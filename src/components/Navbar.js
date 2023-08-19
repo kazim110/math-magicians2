@@ -6,8 +6,8 @@ const Navbar = () => (
       <h1>Math Magicians</h1>
       <div>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/quote">Quote</NavLink>
         <NavLink to="/calculator">Calculator</NavLink>
+        <NavLink to="/quote">Quote</NavLink>
       </div>
     </nav>
     <Outlet />
